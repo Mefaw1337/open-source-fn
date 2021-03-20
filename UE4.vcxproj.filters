@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{8be1efc8-83d1-4a0a-bc6e-5bff502fe431}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{a74e729f-b748-413d-8c7f-1b25e70aadef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ressource Files">
+      <UniqueIdentifier>{b858efaf-66cb-4682-9641-141685506aa1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ressource Files\Render">
+      <UniqueIdentifier>{c3f03e41-fbb6-4bc7-8e7b-c2dfbb70803e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\HPP">
+      <UniqueIdentifier>{725bf5a7-67a3-4e64-9e40-e51e2d126297}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\H">
+      <UniqueIdentifier>{6d0e23af-bf7c-4118-8ee1-522736a721a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ressource Files\Settings">
+      <UniqueIdentifier>{f3016435-790f-47e0-a074-f65ab2ba6490}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ressource Files\Render\GUI">
+      <UniqueIdentifier>{48b695fd-156a-409a-9d99-e1be2d19af10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ressource Files\Hooks">
+      <UniqueIdentifier>{f78dbf38-1876-4637-ab76-c51b86dc536c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ressource Files\CCheat">
+      <UniqueIdentifier>{7d36d289-634d-4b21-9fc8-b18dd1eb81c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ressource Files\Crypt">
+      <UniqueIdentifier>{9cacc315-2577-435c-b881-fc46342c7da5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Render\imgui.cpp">
+      <Filter>Ressource Files\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\imgui_draw.cpp">
+      <Filter>Ressource Files\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\imgui_impl_dx11.cpp">
+      <Filter>Ressource Files\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Draw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Render\imgui_impl_dx11.h">
+      <Filter>Ressource Files\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\imgui_internal.h">
+      <Filter>Ressource Files\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\stb_rect_pack.h">
+      <Filter>Ressource Files\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\stb_textedit.h">
+      <Filter>Ressource Files\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\stb_truetype.h">
+      <Filter>Ressource Files\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\imconfig.h">
+      <Filter>Ressource Files\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\imgui.h">
+      <Filter>Ressource Files\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings.hpp">
+      <Filter>Ressource Files\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="XOR.hpp">
+      <Filter>Ressource Files\Crypt</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI.h">
+      <Filter>Ressource Files\Render\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Draw.hpp">
+      <Filter>Header Files\HPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Globals.hpp">
+      <Filter>Header Files\HPP</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Virtualiser.hpp">
+      <Filter>Header Files\HPP</Filter>
+    </ClInclude>
+    <ClInclude Include="KManager.hpp">
+      <Filter>Header Files\HPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\MinHook.h">
+      <Filter>Ressource Files\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="CCheat.hpp">
+      <Filter>Ressource Files\CCheat</Filter>
+    </ClInclude>
+    <ClInclude Include="CGame.hpp">
+      <Filter>Ressource Files\CCheat</Filter>
+    </ClInclude>
+    <ClInclude Include="CMemory.hpp">
+      <Filter>Ressource Files\CCheat</Filter>
+    </ClInclude>
+    <ClInclude Include="CStructs.hpp">
+      <Filter>Ressource Files\CCheat</Filter>
+    </ClInclude>
+    <ClInclude Include="CHookSpoofcall.hpp">
+      <Filter>Ressource Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="Hooks\minhook.lib">
+      <Filter>Ressource Files\Hooks</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="stub_call.asm">
+      <Filter>Ressource Files</Filter>
+    </MASM>
+  </ItemGroup>
+</Project>
