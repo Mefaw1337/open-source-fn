@@ -64,7 +64,7 @@ __declspec(dllexport) HRESULT PresentHook(IDXGISwapChain *swapChain, UINT syncIn
 
 	auto& p_Window = BeginScene();
 
-	const char* label = C("FORTNITE, UE_4.25");
+	const char* label = C("FORTNITE, UE_4.25 BY MEFAW#1511");
 
 	p_Window.DrawList->AddText(ImVec2(25, 2 + 1), ImGui::GetColorU32({ 0, 0, 0, 1 }), label);
 	p_Window.DrawList->AddText(ImVec2(25, 2 + 2), ImGui::GetColorU32({ 0, 0, 0, 1 }), label);
