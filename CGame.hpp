@@ -34,7 +34,7 @@ PBYTE yikes(LPCSTR pattern, LPCSTR mask) {
 	return yikes(info.lpBaseOfDll, info.SizeOfImage, pattern, mask);
 }
 
-namespace CGame
+namespace CGame //here are the sigs
 {
 	bool CreateGameObjects()
 	{
