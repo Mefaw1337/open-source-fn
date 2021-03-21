@@ -10,3 +10,5 @@ Credits to :
 - Ronin#4513 
 - Mefaw#1511
 - risku
+
+ # we do not provide any support
